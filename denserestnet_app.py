@@ -125,7 +125,7 @@ if uploaded_file:
 
     # Center and resize uploaded image
     st.markdown("<div style='text-align:center;'>", unsafe_allow_html=True)
-    st.image(img, caption="Uploaded Image", use_container_width=False, width=400)
+    st.image(img, caption="Uploaded Image", width=400)
     st.markdown("</div>", unsafe_allow_html=True)
 
     processed = preprocess_image(img)
