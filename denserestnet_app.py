@@ -186,6 +186,17 @@ if uploaded_file:
 else:
     st.info("Upload an image to start classification.")
 
+
+# Show the 11 dish classes with small images
+st.markdown("---")
+st.subheader("🍲 Ethiopian Dishes Included in the Classifier")
+st.markdown("The classifier is trained on the following 11 traditional Ethiopian dishes:")
+cols = st.columns(3)
+for i, name in enumerate(CLASS_NAMES):
+    img_path = f"images/samples/{name}.jpg"
+    with cols[i % 3]:
+        st.image(img_path, width=100, caption=name.replace("_", " ").title())
+
 st.markdown("---")
 st.markdown("""
 **About:** This app demonstrates DensResNet, an ensemble-based deep learning model for classifying 11 traditional Ethiopian dishes by combining the strengths of ResNet50V2 and DenseNet121 architectures.
