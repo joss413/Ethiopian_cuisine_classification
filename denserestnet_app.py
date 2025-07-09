@@ -8,6 +8,7 @@ from io import BytesIO
 import gdown
 import os
 from dotenv import load_dotenv
+import requests
 
 HF_TOKEN = st.secrets["HF_TOKEN"]
 REPO_ID = "Jossi18/Ethiopian_cusine_classification"
