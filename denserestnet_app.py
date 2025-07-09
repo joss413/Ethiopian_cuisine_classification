@@ -9,7 +9,7 @@ import gdown
 import os
 from dotenv import load_dotenv
 import requests
-
+from pathlib import Path
 HF_TOKEN = st.secrets["HF_TOKEN"]
 REPO_ID = "Jossi18/Ethiopian_cusine_classification"
 # Load flag image
