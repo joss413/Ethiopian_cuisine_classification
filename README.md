@@ -49,8 +49,8 @@ beyaynetu, chechebsa, doro_wat, firfir, genfo,kiki1, kitfo, shekla_tibs, shiro_w
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/densresnet-app.git
-   cd densresnet-app
+   git clone https://github.com/yourusername/Ethiopian_cuisine_classification.git
+   cd Ethiopian_cuisine_classification
    ```
 2. **Install dependencies:**:   
    ```commandline
