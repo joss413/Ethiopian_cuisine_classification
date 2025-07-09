@@ -5,3 +5,4 @@ Pillow==10.2.0
 matplotlib==3.7.1
 gdown==4.7.1
 python-dotenv==1.0.1
+requests
