@@ -12,6 +12,7 @@ Upload an image of Ethiopian food and the model will return top-2 predictions fr
 - **Soft Voting Ensemble**
 
 It also shows bar chart visualizations of all class probabilities and a performance summary table.
+
 🔗 **Try the live app:**  
 [ethiopian-cuisine-classification](https://ethiopian-cuisine-classification.streamlit.app/)
 ---
